@@ -1,0 +1,63 @@
+{
+    "email": "030@gmail.com",
+    "response": {
+        "statusCode": 200, 
+        "body": {
+            "Condominiums & Other Apartments":
+            {
+                "1st - 20th" : "1372",
+                "21st - 40th" : "5375",
+                "41st - 60th" : "9498",
+                "61st - 80th" : "14544",
+                "81st - 100th" : "28923"
+            },
+            "HDB Dwellings - 1- & 2-Room Flats":
+            {
+                "1st - 20th" : "1220",
+                "21st - 40th" : "2464",
+                "41st - 60th" : "4093",
+                "61st - 80th" : "6183",
+                "81st - 100th" : "8004"
+            },
+            "HDB Dwellings - 3-Room Flats":
+            {
+                "1st - 20th" : "1700",
+                "21st - 40th" : "4225",
+                "41st - 60th" : "6175",
+                "61st - 80th" : "8245",
+                "81st - 100th" : "12185"
+            },
+            "HDB Dwellings - 4-Room Flats":
+            {
+                "1st - 20th" : "2697",
+                "21st - 40th" : "5583",
+                "41st - 60th" : "8245",
+                "61st - 80th" : "11279",
+                "81st - 100th" : "16669"
+            },
+            "HDB Dwellings - 5-Room & Executive Flats":
+            {
+                "1st - 20th" : "2601",
+                "21st - 40th" : "6475",
+                "41st - 60th" : "9532",
+                "61st - 80th" : "13484",
+                "81st - 100th" : "19391"
+            },
+            "Landed Properties":
+            {
+                "1st - 20th" : "1506",
+                "21st - 40th" : "6226",
+                "41st - 60th" : "11215",
+                "61st - 80th" : "16355",
+                "81st - 100th" : "40007"
+            },
+            "User":
+            {
+                "Quartile" : "41st - 60th",
+                "Monthly income" : "7000",
+                "House Type" : "Condo",
+                "No of rooms" : "5"
+            }
+         }
+    }
+}

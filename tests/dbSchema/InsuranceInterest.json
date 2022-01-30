@@ -1,0 +1,32 @@
+{
+    "Table": {
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "user_email",
+                "AttributeType": "S"
+            }
+        ],
+        "TableName": "InsuranceInterest",
+        "KeySchema": [
+            {
+                "AttributeName": "user_email",
+                "KeyType": "HASH"
+            }
+        ],
+        "TableStatus": "ACTIVE",
+        "CreationDateTime": "2021-09-20T18:37:35.199000+08:00",
+        "ProvisionedThroughput": {
+            "NumberOfDecreasesToday": 0,
+            "ReadCapacityUnits": 0,
+            "WriteCapacityUnits": 0
+        },
+        "TableSizeBytes": 0,
+        "ItemCount": 0,
+        "TableArn": "arn:aws:dynamodb:ap-southeast-1:407587355055:table/InsuranceInterest",
+        "TableId": "41c4c356-be50-4ad8-b001-e5c56044170d",
+        "BillingModeSummary": {
+            "BillingMode": "PAY_PER_REQUEST",
+            "LastUpdateToPayPerRequestDateTime": "2021-09-20T18:37:35.199000+08:00"
+        }
+    }
+}

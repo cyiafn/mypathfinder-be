@@ -1,0 +1,327 @@
+{
+    "Items": [
+        {
+            "company_id": {
+                "S": "insurance_prudential"
+            },
+            "plan_id": {
+                "S": "insurance_prudential_life_support_3"
+            },
+            "document_folder": {
+                "S": "https://assets-me.s3.ap-southeast-1.amazonaws.com/Insurance/insurance_prudential_life_support_3/prulife_eBrochure_EN.pdf"
+            },
+            "max_renumeration_amount": {
+                "N": "120000"
+            },
+            "plan_name": {
+                "S": "Life Support 3"
+            },
+            "recommendation_id": {
+                "S": "9"
+            },
+            "premium_max": {
+                "N": "1800"
+            },
+            "policy_term": {
+                "N": "100"
+            },
+            "premium_min": {
+                "N": "1600"
+            },
+            "type": {
+                "S": "Life"
+            }
+        },
+        {
+            "company_id": {
+                "S": "insurance_aia"
+            },
+            "plan_id": {
+                "S": "insurance_aia_hospitilisation_coverage"
+            },
+            "document_folder": {
+                "S": "https://assets-me.s3.ap-southeast-1.amazonaws.com/Insurance/insurance_aia_hospitilization_coverage/aia-platinum-health-brochure.pdf"
+            },
+            "max_renumeration_amount": {
+                "N": "40000"
+            },
+            "plan_name": {
+                "S": "Hospitilisation coverage"
+            },
+            "recommendation_id": {
+                "S": "1"
+            },
+            "premium_max": {
+                "N": "800"
+            },
+            "policy_term": {
+                "N": "20"
+            },
+            "premium_min": {
+                "N": "600"
+            },
+            "type": {
+                "S": "Hospitilisation"
+            }
+        },
+        {
+            "company_id": {
+                "S": "insurance_aia"
+            },
+            "plan_id": {
+                "S": "insurance_aia_critical_illness_coverage"
+            },
+            "document_folder": {
+                "S": "https://assets-me.s3.ap-southeast-1.amazonaws.com/Insurance/insurance_aia_critical_illness_coverage/aia-absolute-critical-cover-brochure.pdf"
+            },
+            "max_renumeration_amount": {
+                "N": "70000"
+            },
+            "plan_name": {
+                "S": "Critical Illness coverage"
+            },
+            "recommendation_id": {
+                "S": "4"
+            },
+            "premium_max": {
+                "N": "1200"
+            },
+            "policy_term": {
+                "N": "30"
+            },
+            "premium_min": {
+                "N": "1000"
+            },
+            "type": {
+                "S": "Critical Illness"
+            }
+        },
+        {
+            "company_id": {
+                "S": "insurance_prudential"
+            },
+            "plan_id": {
+                "S": "insurance_prudential_disability_coverage_2"
+            },
+            "document_folder": {
+                "S": "https://assets-me.s3.ap-southeast-1.amazonaws.com/Insurance/insurance_prudential_disability_coverage_2/pruearly_stage_disability_eBrochure_eglish.pdf"
+            },
+            "max_renumeration_amount": {
+                "N": "110000"
+            },
+            "plan_name": {
+                "S": "Disability coverage 2"
+            },
+            "recommendation_id": {
+                "S": "8"
+            },
+            "premium_max": {
+                "N": "1700"
+            },
+            "policy_term": {
+                "N": "40"
+            },
+            "premium_min": {
+                "N": "1500"
+            },
+            "type": {
+                "S": "Disability"
+            }
+        },
+        {
+            "company_id": {
+                "S": "insurance_prudential"
+            },
+            "plan_id": {
+                "S": "insurance_prudential_critical_illness_coverage_2"
+            },
+            "document_folder": {
+                "S": "https://assets-me.s3.ap-southeast-1.amazonaws.com/Insurance/insurance_prudential_critical_illness_coverage_2/PRUActive-Protect-Brochure-en-compressed.pdf"
+            },
+            "max_renumeration_amount": {
+                "N": "100000"
+            },
+            "plan_name": {
+                "S": "Critical Illness coverage 2"
+            },
+            "recommendation_id": {
+                "S": "7"
+            },
+            "premium_max": {
+                "N": "1600"
+            },
+            "policy_term": {
+                "N": "50"
+            },
+            "premium_min": {
+                "N": "1400"
+            },
+            "type": {
+                "S": "Critical Illness"
+            }
+        },
+        {
+            "company_id": {
+                "S": "insurance_prudential"
+            },
+            "plan_id": {
+                "S": "insurance_prudential_hospitilisation_coverage_2"
+            },
+            "document_folder": {
+                "S": "https://assets-me.s3.ap-southeast-1.amazonaws.com/Insurance/insurance_prudential_hospitilization_coverage_2/prushield_eBrochure_english.pdf"
+            },
+            "max_renumeration_amount": {
+                "N": "90000"
+            },
+            "plan_name": {
+                "S": "Hospitilisation coverage 2"
+            },
+            "recommendation_id": {
+                "S": "6"
+            },
+            "premium_max": {
+                "N": "1500"
+            },
+            "policy_term": {
+                "N": "40"
+            },
+            "premium_min": {
+                "N": "1300"
+            },
+            "type": {
+                "S": "Hospitilisation"
+            }
+        },
+        {
+            "company_id": {
+                "S": "insurance_aia"
+            },
+            "plan_id": {
+                "S": "insurance_aia_disability_coverage"
+            },
+            "document_folder": {
+                "S": "https://assets-me.s3.ap-southeast-1.amazonaws.com/Insurance/insurance_aia_disability_coverage/aia-premier-disability-cover.PDF"
+            },
+            "max_renumeration_amount": {
+                "N": "50000"
+            },
+            "plan_name": {
+                "S": "Disability coverage"
+            },
+            "recommendation_id": {
+                "S": "2"
+            },
+            "premium_max": {
+                "N": "800"
+            },
+            "policy_term": {
+                "N": "30"
+            },
+            "premium_min": {
+                "N": "600"
+            },
+            "type": {
+                "S": "Disability"
+            }
+        },
+        {
+            "company_id": {
+                "S": "insurance_aia"
+            },
+            "plan_id": {
+                "S": "insurance_aia_life_support_2"
+            },
+            "document_folder": {
+                "S": "https://assets-me.s3.ap-southeast-1.amazonaws.com/Insurance/insurance_aia_life_support_2/aia-guaranteed-protect-plus-iii.pdf"
+            },
+            "max_renumeration_amount": {
+                "N": "80000"
+            },
+            "plan_name": {
+                "S": "Life Support 2"
+            },
+            "recommendation_id": {
+                "S": "5"
+            },
+            "premium_max": {
+                "N": "1400"
+            },
+            "policy_term": {
+                "N": "100"
+            },
+            "premium_min": {
+                "N": "1200"
+            },
+            "type": {
+                "S": "Life"
+            }
+        },
+        {
+            "company_id": {
+                "S": "insurance_aia"
+            },
+            "plan_id": {
+                "S": "insurance_aia_life_support"
+            },
+            "document_folder": {
+                "S": "https://assets-me.s3.ap-southeast-1.amazonaws.com/Insurance/insurance_aia_life_support/aia-secure-flexi-term-brochure.pdf"
+            },
+            "max_renumeration_amount": {
+                "N": "60000"
+            },
+            "plan_name": {
+                "S": "Life Support"
+            },
+            "recommendation_id": {
+                "S": "3"
+            },
+            "premium_max": {
+                "N": "1000"
+            },
+            "policy_term": {
+                "N": "100"
+            },
+            "premium_min": {
+                "N": "800"
+            },
+            "type": {
+                "S": "Life"
+            }
+        },
+        {
+            "company_id": {
+                "S": "insurance_prudential"
+            },
+            "plan_id": {
+                "S": "insurance_prudential_life_support_4"
+            },
+            "document_folder": {
+                "S": "https://assets-me.s3.ap-southeast-1.amazonaws.com/Insurance/insurance_prudential_life_support_4/PRUActive-LinkGuard-eBrochure.pdf"
+            },
+            "max_renumeration_amount": {
+                "N": "130000"
+            },
+            "plan_name": {
+                "S": "Life Support 4"
+            },
+            "recommendation_id": {
+                "S": "10"
+            },
+            "premium_max": {
+                "N": "1900"
+            },
+            "policy_term": {
+                "N": "100"
+            },
+            "premium_min": {
+                "N": "1700"
+            },
+            "type": {
+                "S": "Life"
+            }
+        }
+    ],
+    "Count": 10,
+    "ScannedCount": 10,
+    "ConsumedCapacity": null
+}

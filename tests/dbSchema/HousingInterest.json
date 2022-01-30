@@ -1,0 +1,32 @@
+{
+    "Table": {
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "user_email",
+                "AttributeType": "S"
+            }
+        ],
+        "TableName": "HousingInterest",
+        "KeySchema": [
+            {
+                "AttributeName": "user_email",
+                "KeyType": "HASH"
+            }
+        ],
+        "TableStatus": "ACTIVE",
+        "CreationDateTime": "2021-09-20T18:37:16.106000+08:00",
+        "ProvisionedThroughput": {
+            "NumberOfDecreasesToday": 0,
+            "ReadCapacityUnits": 0,
+            "WriteCapacityUnits": 0
+        },
+        "TableSizeBytes": 0,
+        "ItemCount": 0,
+        "TableArn": "arn:aws:dynamodb:ap-southeast-1:407587355055:table/HousingInterest",
+        "TableId": "b99f10cb-314b-47ee-9b67-1dc42378988b",
+        "BillingModeSummary": {
+            "BillingMode": "PAY_PER_REQUEST",
+            "LastUpdateToPayPerRequestDateTime": "2021-09-20T18:37:16.106000+08:00"
+        }
+    }
+}

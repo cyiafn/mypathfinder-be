@@ -1,0 +1,20 @@
+{
+    "request":{
+        "Authorization": "eyJraWQiOiJ6SklKRlJ3VisrZzJGMlwvbDRxanFLblM2bVRjenNqK0NWa1JwRysySlFRdz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMzFiYWI2Mi1hNTgxLTRlNmMtYWJjMi01OWU0NWI3OTcwZjQiLCJldmVudF9pZCI6IjZmMzIwZmE3LTMwYTEtNGVhNS05NTlmLTdiYzYxNjE1NDg2OCIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4gb3BlbmlkIHBhdGhmaW5kZXJcL2FsbCBlbWFpbCIsImF1dGhfdGltZSI6MTYzMzcwMDUwOSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmFwLXNvdXRoZWFzdC0xLmFtYXpvbmF3cy5jb21cL2FwLXNvdXRoZWFzdC0xX3g3WkRUUHhZciIsImV4cCI6MTYzMzcwNDEwOSwiaWF0IjoxNjMzNzAwNTA5LCJ2ZXJzaW9uIjoyLCJqdGkiOiI2ZWQ2NmEwOS01MGMyLTRjMzUtOWU2NS0zYzQwZTUzNmVkZmUiLCJjbGllbnRfaWQiOiIzMmtzOGI2c2hpcGVnazZ2ZXY4ZDFidDN1aCIsInVzZXJuYW1lIjoiMTMxYmFiNjItYTU4MS00ZTZjLWFiYzItNTllNDViNzk3MGY0In0.LixFSTfpGv97NLc08YM4xrBdA5vFwDL7d1xuf_uqmgckH1VvvJ8-REpQYXPPSCcSnD2vmx-DFil5v_QHColNXYKg4J_bVwgtkc536AHk6OxTLBShNHSh9bm09p5akyurXLaEPbkYzeEWoU57r1Y8mzqjC4mePxLYN9OTxpAIbhAYmUDOCC1RZv4wt6S3BTsSkNoqBH0alYQfBhVWdOExm5EUmLKSq5fV-wBEGg33wYb-xRkq_mrVXkQTf2hcumUo2oDCm7Iuwi0kJMbrBNcN46p9vKkaZPge1-ZGh3ss7J1aVi0J7LFFLxum1iW9dBaFCBmmaVJj8wnAHiKWHoHMmQ",
+        "page": 3,
+        "min_amount": 1,
+        "max_amount": 9999999999,
+        "min_bedroom": 1,
+        "max_bedroom": 99,
+        "min_bathroom": 1,
+        "max_bathroom": 99,
+        "min_sqfeet": 10,
+        "max_sqfeet": 9999999999,
+        "type": "All"
+    },
+    "response": {
+        "statusCode": 404,
+        "message": "No more page"
+    }
+    
+}

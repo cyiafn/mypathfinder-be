@@ -1,0 +1,477 @@
+{
+    "Items": [
+        {
+            "company_id": {
+                "S": "housing_ohmyhome"
+            },
+            "has_furnishing": {
+                "S": "true"
+            },
+            "house_recommendation_id": {
+                "S": "6"
+            },
+            "no_of_rooms": {
+                "N": "6"
+            },
+            "house_id": {
+                "S": "housing_ohmyhome_2_siloso_road_singapore_000234"
+            },
+            "no_of_toilets": {
+                "N": "5"
+            },
+            "address": {
+                "S": "2 Siloso Road, Singapore 000234"
+            },
+            "nearest_mrt": {
+                "S": "Harbourfront"
+            },
+            "developer": {
+                "S": "Ah Huang Construction Pte Ltd"
+            },
+            "image_folder": {
+                "S": "https://assets-me.s3.ap-southeast-1.amazonaws.com/Housing/housing_ohmyhome_2_siloso_road_singapore_000234/"
+            },
+            "square_feet": {
+                "N": "1500"
+            },
+            "tenure": {
+                "N": "100"
+            },
+            "price": {
+                "N": "3500987"
+            },
+            "distance_to_mrt": {
+                "N": "4"
+            },
+            "type": {
+                "S": "Landed"
+            }
+        },
+        {
+            "company_id": {
+                "S": "housing_propertyguru"
+            },
+            "has_furnishing": {
+                "S": "false"
+            },
+            "house_recommendation_id": {
+                "S": "2"
+            },
+            "no_of_rooms": {
+                "N": "3"
+            },
+            "house_id": {
+                "S": "housing_propertyguru_32_yio_chu_kang_road_singapore_087349_12_209"
+            },
+            "no_of_toilets": {
+                "N": "2"
+            },
+            "address": {
+                "S": "32 Yio Chu Kang Road #12-209, Singapore 087349"
+            },
+            "nearest_mrt": {
+                "S": "Yio Chu Kang"
+            },
+            "developer": {
+                "S": "Ah Huang Construction Pte Ltd"
+            },
+            "image_folder": {
+                "S": "https://assets-me.s3.ap-southeast-1.amazonaws.com/Housing/housing_propertyguru_32_yio_chu_kang_road_singapore_087349_12_209/"
+            },
+            "square_feet": {
+                "N": "800"
+            },
+            "tenure": {
+                "N": "99"
+            },
+            "price": {
+                "N": "1200980"
+            },
+            "distance_to_mrt": {
+                "N": "1"
+            },
+            "type": {
+                "S": "HDB"
+            }
+        },
+        {
+            "company_id": {
+                "S": "housing_propertyguru"
+            },
+            "has_furnishing": {
+                "S": "true"
+            },
+            "house_recommendation_id": {
+                "S": "6"
+            },
+            "no_of_rooms": {
+                "N": "6"
+            },
+            "house_id": {
+                "S": "housing_propertyguru_938_bedok_north_singapore_968532"
+            },
+            "no_of_toilets": {
+                "N": "4"
+            },
+            "address": {
+                "S": "938 Bedok North, Singapore 968532"
+            },
+            "nearest_mrt": {
+                "S": "Bedok"
+            },
+            "developer": {
+                "S": "Ah Huang Construction Pte Ltd"
+            },
+            "image_folder": {
+                "S": "https://assets-me.s3.ap-southeast-1.amazonaws.com/Housing/housing_propertyguru_938_bedok_north_singapore_968532/"
+            },
+            "square_feet": {
+                "N": "1400"
+            },
+            "tenure": {
+                "N": "100"
+            },
+            "price": {
+                "N": "3000000"
+            },
+            "distance_to_mrt": {
+                "N": "1.5"
+            },
+            "type": {
+                "S": "Landed"
+            }
+        },
+        {
+            "company_id": {
+                "S": "housing_ohmyhome"
+            },
+            "has_furnishing": {
+                "S": "true"
+            },
+            "house_recommendation_id": {
+                "S": "3"
+            },
+            "no_of_rooms": {
+                "N": "3"
+            },
+            "house_id": {
+                "S": "housing_ohmyhome_512_ang_mo_kio_avenue_8_singapore_928474_08_09"
+            },
+            "no_of_toilets": {
+                "N": "3"
+            },
+            "address": {
+                "S": "512 Ang Mo Kio Avenue 8 #08-09, Singapore 928474"
+            },
+            "nearest_mrt": {
+                "S": "Ang Mo Kio"
+            },
+            "developer": {
+                "S": "Ah Huang Construction Pte Ltd"
+            },
+            "image_folder": {
+                "S": "https://assets-me.s3.ap-southeast-1.amazonaws.com/Housing/housing_ohmyhome_512_ang_mo_kio_avenue_8_singapore_928474_08_09/"
+            },
+            "square_feet": {
+                "N": "1001"
+            },
+            "tenure": {
+                "N": "99"
+            },
+            "price": {
+                "N": "1493920"
+            },
+            "distance_to_mrt": {
+                "N": "0.8"
+            },
+            "type": {
+                "S": "HDB"
+            }
+        },
+        {
+            "company_id": {
+                "S": "housing_ohmyhome"
+            },
+            "has_furnishing": {
+                "S": "true"
+            },
+            "house_recommendation_id": {
+                "S": "6"
+            },
+            "no_of_rooms": {
+                "N": "7"
+            },
+            "house_id": {
+                "S": "housing_ohmyhome_98_choa_chu_kang_road_singapore_555734"
+            },
+            "no_of_toilets": {
+                "N": "5"
+            },
+            "address": {
+                "S": "98 Choa Chu Kang Road, Singapore 555734"
+            },
+            "nearest_mrt": {
+                "S": "Choa Chu Kang"
+            },
+            "developer": {
+                "S": "Ah Huang Construction Pte Ltd"
+            },
+            "image_folder": {
+                "S": "https://assets-me.s3.ap-southeast-1.amazonaws.com/Housing/housing_ohmyhome_98_choa_chu_kang_road_singapore_555734/"
+            },
+            "square_feet": {
+                "N": "1600"
+            },
+            "tenure": {
+                "N": "100"
+            },
+            "price": {
+                "N": "4000000"
+            },
+            "distance_to_mrt": {
+                "N": "2"
+            },
+            "type": {
+                "S": "Landed"
+            }
+        },
+        {
+            "company_id": {
+                "S": "housing_propertyguru"
+            },
+            "has_furnishing": {
+                "S": "true"
+            },
+            "house_recommendation_id": {
+                "S": "4"
+            },
+            "no_of_rooms": {
+                "N": "4"
+            },
+            "house_id": {
+                "S": "housing_propertyguru_160_joo_chiat_road_singapore_230985_08_093"
+            },
+            "no_of_toilets": {
+                "N": "3"
+            },
+            "address": {
+                "S": "160 Joo Chiat Road #08-093, Singapore 230985"
+            },
+            "nearest_mrt": {
+                "S": "Tanah Merah"
+            },
+            "developer": {
+                "S": "Ah Huang Construction Pte Ltd"
+            },
+            "image_folder": {
+                "S": "https://assets-me.s3.ap-southeast-1.amazonaws.com/Housing/housing_propertyguru_160_joo_chiat_road_singapore_230985_08_093/"
+            },
+            "square_feet": {
+                "N": "1050"
+            },
+            "tenure": {
+                "N": "100"
+            },
+            "price": {
+                "N": "2098309"
+            },
+            "distance_to_mrt": {
+                "N": "0.5"
+            },
+            "type": {
+                "S": "Condo"
+            }
+        },
+        {
+            "company_id": {
+                "S": "housing_propertyguru"
+            },
+            "has_furnishing": {
+                "S": "true"
+            },
+            "house_recommendation_id": {
+                "S": "6"
+            },
+            "no_of_rooms": {
+                "N": "5"
+            },
+            "house_id": {
+                "S": "housing_propertyguru_98_woodlands_loop_singapore_983475_19_23"
+            },
+            "no_of_toilets": {
+                "N": "3"
+            },
+            "address": {
+                "S": "98 Woodlands Loop #19-23, Singapore 983475"
+            },
+            "nearest_mrt": {
+                "S": "Woodlands"
+            },
+            "developer": {
+                "S": "Ah Huang Construction Pte Ltd"
+            },
+            "image_folder": {
+                "S": "https://assets-me.s3.ap-southeast-1.amazonaws.com/Housing/housing_propertyguru_98_woodlands_loop_singapore_983475_19_23/"
+            },
+            "square_feet": {
+                "N": "1100"
+            },
+            "tenure": {
+                "N": "100"
+            },
+            "price": {
+                "N": "2399489"
+            },
+            "distance_to_mrt": {
+                "N": "0.4"
+            },
+            "type": {
+                "S": "Condo"
+            }
+        },
+        {
+            "company_id": {
+                "S": "housing_ohmyhome"
+            },
+            "has_furnishing": {
+                "S": "true"
+            },
+            "house_recommendation_id": {
+                "S": "5"
+            },
+            "no_of_rooms": {
+                "N": "4"
+            },
+            "house_id": {
+                "S": "housing_ohmyhome_63_joo_chiat_road_singapore_230985"
+            },
+            "no_of_toilets": {
+                "N": "3"
+            },
+            "address": {
+                "S": "63 Joo Chiat Road, Singapore 230985"
+            },
+            "nearest_mrt": {
+                "S": "Tanah Merah"
+            },
+            "developer": {
+                "S": "Ah Huang Construction Pte Ltd"
+            },
+            "image_folder": {
+                "S": "https://assets-me.s3.ap-southeast-1.amazonaws.com/Housing/housing_ohmyhome_63_joo_chiat_road_singapore_230985/"
+            },
+            "square_feet": {
+                "N": "1200"
+            },
+            "tenure": {
+                "N": "100"
+            },
+            "price": {
+                "N": "2500940"
+            },
+            "distance_to_mrt": {
+                "N": "1"
+            },
+            "type": {
+                "S": "Landed"
+            }
+        },
+        {
+            "company_id": {
+                "S": "housing_propertyguru"
+            },
+            "has_furnishing": {
+                "S": "true"
+            },
+            "house_recommendation_id": {
+                "S": "6"
+            },
+            "no_of_rooms": {
+                "N": "5"
+            },
+            "house_id": {
+                "S": "housing_propertyguru_101_bishan_ring_singapore_378576_06_62"
+            },
+            "no_of_toilets": {
+                "N": "4"
+            },
+            "address": {
+                "S": "101 Bishan Ring #06-62, Singapore 378576"
+            },
+            "nearest_mrt": {
+                "S": "Bishan"
+            },
+            "developer": {
+                "S": "Ah Huang Construction Pte Ltd"
+            },
+            "image_folder": {
+                "S": "https://assets-me.s3.ap-southeast-1.amazonaws.com/Housing/housing_propertyguru_101_bishan_ring_singapore_378576_06_62/"
+            },
+            "square_feet": {
+                "N": "1150"
+            },
+            "tenure": {
+                "N": "100"
+            },
+            "price": {
+                "N": "2600098"
+            },
+            "distance_to_mrt": {
+                "N": "0.6"
+            },
+            "type": {
+                "S": "Condo"
+            }
+        },
+        {
+            "company_id": {
+                "S": "housing_ohmyhome"
+            },
+            "has_furnishing": {
+                "S": "true"
+            },
+            "house_recommendation_id": {
+                "S": "1"
+            },
+            "no_of_rooms": {
+                "N": "3"
+            },
+            "house_id": {
+                "S": "housing_ohmyhome_53_lim_chu_kang_road_singapore_235432_09_43"
+            },
+            "no_of_toilets": {
+                "N": "2"
+            },
+            "address": {
+                "S": "53 Lim Chu Kang Road #09-43, Singapore 235432"
+            },
+            "nearest_mrt": {
+                "S": "Joo Koon"
+            },
+            "developer": {
+                "S": "Ah Huang Construction Pte Ltd"
+            },
+            "image_folder": {
+                "S": "https://assets-me.s3.ap-southeast-1.amazonaws.com/Housing/housing_ohmyhome_53_lim_chu_kang_road_singapore_235432_09_43/"
+            },
+            "square_feet": {
+                "N": "600"
+            },
+            "tenure": {
+                "N": "50"
+            },
+            "price": {
+                "N": "908490"
+            },
+            "distance_to_mrt": {
+                "N": "3"
+            },
+            "type": {
+                "S": "HDB"
+            }
+        }
+    ],
+    "Count": 10,
+    "ScannedCount": 10,
+    "ConsumedCapacity": null
+}

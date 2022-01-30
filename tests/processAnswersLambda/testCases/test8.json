@@ -1,0 +1,21 @@
+{
+    "request": {
+        "have_disability_insurance": "false",
+        "oa_saving": 600000,       
+        "no_of_room": 6,        
+        "no_of_children": 3,        
+        "have_critical_illness_insurance": "true",       
+        "have_spouse": "false",        
+        "current_debt": 100,
+        "yearly_income": 150000,
+        "current_saving": 800000,
+        "house_valuation": 4000000,        
+        "have_hospitalisation_insurance": "false",        
+        "house_type": "Landed",
+        "special_saving": 500000,
+        "have_life_insurance": "false"
+    },
+    "response": {
+        "recommendation_id": "4"
+    }
+}

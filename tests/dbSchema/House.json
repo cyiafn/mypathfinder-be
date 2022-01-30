@@ -1,0 +1,50 @@
+{
+    "Table": {
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "house_id",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "house_recommendation_id",
+                "AttributeType": "S"
+            }
+        ],
+        "TableName": "House",
+        "KeySchema": [
+            {
+                "AttributeName": "house_id",
+                "KeyType": "HASH"
+            }
+        ],
+        "TableStatus": "ACTIVE",
+        "CreationDateTime": "2021-09-20T18:35:51.892000+08:00",
+        "ProvisionedThroughput": {
+            "NumberOfDecreasesToday": 0,
+            "ReadCapacityUnits": 0,
+            "WriteCapacityUnits": 0
+        },
+        "TableSizeBytes": 0,
+        "ItemCount": 0,
+        "TableArn": "arn:aws:dynamodb:ap-southeast-1:407587355055:table/House",
+        "TableId": "903c91e3-b80d-4c1e-affe-e57a5f2baee1",
+        "BillingModeSummary": {
+            "BillingMode": "PAY_PER_REQUEST",
+            "LastUpdateToPayPerRequestDateTime": "2021-09-20T18:35:51.892000+08:00"
+        },
+        "GlobalSecondaryIndexes": [
+            {
+                "IndexName": "house_recommendation_id-index",
+                "KeySchema": [
+                    {
+                        "AttributeName": "house_recommendation_id",
+                        "KeyType": "HASH"
+                    }
+                ],
+                "Projection": {
+                    "ProjectionType": "ALL"
+                }
+            }
+        ]
+    }
+}

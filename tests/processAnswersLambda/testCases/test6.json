@@ -1,0 +1,22 @@
+{
+    "request": {
+        "oa_saving": 40000,
+        "yearly_income": 100000,
+        "current_saving": 20000,
+        "house_valuation": 1000000,
+        "current_debt": 0,
+        "have_spouse": "no",
+        "special_saving": 50000,
+        "no_of_children": 0,
+        "house_type": "HDB",
+        "no_of_room": 3,
+        "have_life_insurance": "false",
+        "have_disability_insurance": "false",
+        "have_hospitalisation_insurance": "false",
+        "have_critical_illness_insurance": "false"
+    },
+    "response": {
+        "statusCode": 400,
+        "message": "Validation failed."
+    }
+}
