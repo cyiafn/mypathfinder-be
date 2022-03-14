@@ -48,11 +48,6 @@ class RequestResponseProcessor:
         '''
         Main orchestrating function
         '''
-        if len(self._unvalidatedRequest) == 1:
-            raise Exception(json.dumps({
-                "statusCode": 400,
-                "message": "Nothing to update!"
-            }))
         self.validateRequest()
         self.updateDb()
         return self.buildResponse()
@@ -126,12 +121,12 @@ def lambda_handler(event, context):
     log("[RESPONSE] " + str(res), "INFO")
     return res
 
-if __name__ == "__main__":
-    os.environ["PROVBE_TRANSACTION_TABLE_NAME"] = "provbe-Transaction"
-    e = {
-        "tokenId": "2",
-        "txn_hash": "def",
-        "sender": "0x25f3cc20e429d183657c89535cbef07c3a5f33a3",
-        "receiver": "0xbfa9ddc23732c910c5f1a304c1957f9b979e792f"
-    }
-    lambda_handler(e, {})
+# if __name__ == "__main__":
+#     os.environ["PROVBE_TRANSACTION_TABLE_NAME"] = "provbe-Transaction"
+#     e = {
+#         "tokenId": "2",
+#         "txn_hash": "def",
+#         "sender": "0x25f3cc20e429d183657c89535cbef07c3a5f33a3",
+#         "receiver": "0xbfa9ddc23732c910c5f1a304c1957f9b979e792f"
+#     }
+#     lambda_handler(e, {})
