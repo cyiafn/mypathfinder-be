@@ -1,0 +1,92 @@
+{
+    "Items": [
+        {
+            "receiver": {
+                "S": "0x25f3cc20e429d183657c89535cbef07c3a5f33a3"
+            },
+            "sender": {
+                "S": "0x728ad1b8a0e21d08f283a822cdcc030eb8f1a6d8"
+            },
+            "datetime": {
+                "S": "14/03/2022 23:26:04"
+            },
+            "tokenId": {
+                "N": "3"
+            },
+            "txn_hash": {
+                "S": "abc"
+            }
+        },
+        {
+            "receiver": {
+                "S": "0xbfa9ddc23732c910c5f1a304c1957f9b979e792f"
+            },
+            "sender": {
+                "S": "0x25f3cc20e429d183657c89535cbef07c3a5f33a3"
+            },
+            "datetime": {
+                "S": "14/03/2022 23:29:24"
+            },
+            "tokenId": {
+                "N": "2"
+            },
+            "txn_hash": {
+                "S": "def"
+            }
+        },
+        {
+            "receiver": {
+                "S": "0xd470d92c52d92c2392845e9fedb1e0f8cd5ae222"
+            },
+            "sender": {
+                "S": "0xf03ffd9622ea11f620f5a7b9ff4179ece25c8c51"
+            },
+            "datetime": {
+                "S": "14/03/2022 23:26:58"
+            },
+            "tokenId": {
+                "N": "4"
+            },
+            "txn_hash": {
+                "S": "bfg"
+            }
+        },
+        {
+            "receiver": {
+                "S": "0xc888d592dbf5050e7f9dfcc721fa2a24958fd57f"
+            },
+            "sender": {
+                "S": "0xf03ffd9622ea11f620f5a7b9ff4179ece25c8c51"
+            },
+            "datetime": {
+                "S": "14/03/2022 23:24:15"
+            },
+            "tokenId": {
+                "N": "1"
+            },
+            "txn_hash": {
+                "S": "aab"
+            }
+        },
+        {
+            "receiver": {
+                "S": "0xbfa9ddc23732c910c5f1a304c1957f9b979e792f"
+            },
+            "sender": {
+                "S": "0xc888d592dbf5050e7f9dfcc721fa2a24958fd57f"
+            },
+            "datetime": {
+                "S": "14/03/2022 23:25:20"
+            },
+            "tokenId": {
+                "N": "1"
+            },
+            "txn_hash": {
+                "S": "abb"
+            }
+        }
+    ],
+    "Count": 5,
+    "ScannedCount": 5,
+    "ConsumedCapacity": null
+}

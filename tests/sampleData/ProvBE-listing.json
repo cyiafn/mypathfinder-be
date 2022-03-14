@@ -1,0 +1,18 @@
+{
+    "Items": [
+        {
+            "tokenId": {
+                "S": "1"
+            },
+            "description": {
+                "S": "lorem ipsum"
+            },
+            "title": {
+                "S": "mercedes benz"
+            }
+        }
+    ],
+    "Count": 1,
+    "ScannedCount": 1,
+    "ConsumedCapacity": null
+}

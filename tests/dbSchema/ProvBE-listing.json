@@ -1,0 +1,35 @@
+{
+    "Table": {
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "tokenId",
+                "AttributeType": "S"
+            }
+        ],
+        "TableName": "ProvBE-listing",
+        "KeySchema": [
+            {
+                "AttributeName": "tokenId",
+                "KeyType": "HASH"
+            }
+        ],
+        "TableStatus": "ACTIVE",
+        "CreationDateTime": "2022-03-09T23:01:38.253000+08:00",
+        "ProvisionedThroughput": {
+            "NumberOfDecreasesToday": 0,
+            "ReadCapacityUnits": 0,
+            "WriteCapacityUnits": 0
+        },
+        "TableSizeBytes": 48,
+        "ItemCount": 1,
+        "TableArn": "arn:aws:dynamodb:ap-southeast-1:407587355055:table/ProvBE-listing",
+        "TableId": "df00f269-0086-4ad2-a098-5be4cd245f61",
+        "BillingModeSummary": {
+            "BillingMode": "PAY_PER_REQUEST",
+            "LastUpdateToPayPerRequestDateTime": "2022-03-09T23:01:38.253000+08:00"
+        },
+        "TableClassSummary": {
+            "TableClass": "STANDARD"
+        }
+    }
+}
