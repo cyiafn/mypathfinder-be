@@ -1,0 +1,12 @@
+{
+    "request": {
+        "tokenId": "1"
+    },
+    "response": {
+        "body": {
+            "tokenId": "1",
+            "description": "lorem ipsum",
+            "title": "mercedes benz"
+        }
+    }    
+}

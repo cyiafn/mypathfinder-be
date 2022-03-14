@@ -1,0 +1,9 @@
+{
+    "request": {
+        "tokenId": "7"
+    },
+    "response": {
+        "statusCode": 500,
+        "message": "Error interacting with DB"
+    }
+}
