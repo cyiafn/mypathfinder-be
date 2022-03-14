@@ -122,6 +122,6 @@ def lambda_handler(event, context):
 # if __name__ == "__main__":
 #     os.environ["PROVBE_TRANSACTION_TABLE_NAME"] = "provbe-Transaction"
 #     e = {
-#         "tokenId": "54"
+#         "tokenId": "2"
 #     }
 #     lambda_handler(e, {})
