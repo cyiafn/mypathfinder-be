@@ -51,6 +51,7 @@ def test_getTransactions4():
             lambda_handler(data["request"], {})
         assert json.loads(str(execinfo.value)) == data["response"]
 
+# TODO: write failure test case
 '''
 Failure test - check lambda code: when will there be error interacting with db? (404)
 '''
