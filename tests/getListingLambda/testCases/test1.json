@@ -5,8 +5,8 @@
     "response": {
         "body": {
             "tokenId": "1",
-            "description": "lorem ipsum",
-            "title": "mercedes benz"
+            "description": "des 1",
+            "title": "test 1"
         }
     }    
 }
