@@ -2,11 +2,8 @@
 import boto3
 import json
 import re
-import boto3 
-import time
 import datetime
 import os
-from decimal import Decimal
 
 dynamodb = boto3.resource('dynamodb')
 
@@ -41,7 +38,37 @@ class RequestResponseProcessor:
         self.validateRequest()
         self.createListing()
         return {"body": "done"}
-    
+
+    def validateRequest(self):
+        '''
+        Code for validating requests
+        '''
+        #Predefining errorResponse
+        errorResponse = json.dumps({
+            "statusCode": 400,
+            "message": "Validation failed."
+        })
+        # ensure unvalidated request contains all required attributes
+        if not set(self._requiredAttributes).issubset(set(self._unvalidatedRequest.keys())):
+            log("[VALIDATION] Failed due to required Attributes not present.", "INFO")
+            raise Exception(errorResponse)
+        else:
+            # ensure unvalidated request does not have extra attributes outside of those specified in required & optional attributes
+            if len(set(self._unvalidatedRequest.keys()).intersection(self._requiredAttributes + \
+                self._optionalAttributes)) == len(self._unvalidatedRequest.keys()):
+                for key, value in self._unvalidatedRequest.items():
+                    match = re.findall(self._regex[key], value)
+                    # ensure only one match for the regex
+                    if len(match) == 1:
+                        self._validatedRequest[key] = value
+                    else:
+                        log("[VALIDATION] Failed due to required Attributes not present.", "INFO")
+                        raise Exception(errorResponse)
+            else:
+                log("[VALIDATION] Failed due to required Attributes not present.", "INFO")
+                raise Exception(errorResponse)
+        log("[VALIDATION] Success" + str(self._validatedRequest), "INFO")
+            
     def createListing(self):
         try:
             table = dynamodb.Table(self._listingTableName)
@@ -78,35 +105,6 @@ class RequestResponseProcessor:
                 })
             )
 
-    def validateRequest(self):
-        '''
-        Code for validating requests
-        '''
-        #Predefining errorResponse
-        errorResponse = json.dumps({
-            "statusCode": 400,
-            "message": "Validation failed."
-        })
-        if not set(self._requiredAttributes).issubset(set(self._unvalidatedRequest.keys())) or len(self._requiredAttributes) > len(self._unvalidatedRequest.keys()):
-            log("[VALIDATION] Failed due to required Attributes not present.", "INFO")
-            raise Exception(errorResponse)
-        else:
-            if len(set(self._unvalidatedRequest.keys()).intersection(self._requiredAttributes + \
-                self._optionalAttributes)) == len(self._unvalidatedRequest.keys()):
-                for key, value in self._unvalidatedRequest.items():
-                    match = re.findall(self._regex[key], value)
-                    if len(match) == 1:
-                        self._validatedRequest[key] = value
-                    else:
-                        log("[VALIDATION] Failed due to required Attributes not present.", "INFO")
-                        raise Exception(errorResponse)
-            else:
-                log("[VALIDATION] Failed due to required Attributes not present.", "INFO")
-                raise Exception(errorResponse)
-        log("[VALIDATION] Success" + str(self._validatedRequest), "INFO")
-
-
-
 
 def lambda_handler(event, context):
     req = RequestResponseProcessor(event)
@@ -115,11 +113,11 @@ def lambda_handler(event, context):
     return res
 
 
-if __name__ == "__main__":
-    os.environ["LISTING_TABLE_NAME"] = "ProvBE-listing"
-    rrp = RequestResponseProcessor({
-        "tokenId": "1",
-        "title": "Test Title",
-        "description": "Test Description"
-    })
-    rrp.orchestrate()
+# if __name__ == "__main__":
+#     os.environ["LISTING_TABLE_NAME"] = "ProvBE-listing"
+#     rrp = RequestResponseProcessor({
+#         "tokenId": "1",
+#         "title": "Test Title",
+#         "description": "Test Description"
+#     })
+#     rrp.orchestrate()

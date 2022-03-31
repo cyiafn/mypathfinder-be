@@ -1,0 +1,10 @@
+{
+    "request": {
+        "tokenId": "3",
+        "description": "This is a description without title."
+    },
+    "response": {
+        "statusCode": 400,
+        "message": "Validation failed."
+    }
+}

@@ -59,14 +59,17 @@ class RequestResponseProcessor:
             "statusCode": 400,
             "message": "Validation failed."
         })
-        if not set(self._requiredAttributes).issubset(set(self._unvalidatedRequest.keys())) or len(self._requiredAttributes) > len(self._unvalidatedRequest.keys()):
+        # ensure unvalidated request contains all required attributes
+        if not set(self._requiredAttributes).issubset(set(self._unvalidatedRequest.keys())):
             log("[VALIDATION] Failed due to required Attributes not present.", "INFO")
             raise Exception(errorResponse)
         else:
+            # ensure unvalidated request does not have extra attributes outside of those specified in required & optional attributes
             if len(set(self._unvalidatedRequest.keys()).intersection(self._requiredAttributes + \
                 self._optionalAttributes)) == len(self._unvalidatedRequest.keys()):
                 for key, value in self._unvalidatedRequest.items():
                     match = re.findall(self._regex[key], value)
+                    # ensure only one match for the regex
                     if len(match) == 1:
                         self._validatedRequest[key] = value
                     else:
@@ -116,9 +119,9 @@ def lambda_handler(event, context):
     return res
 
 
-if __name__ == "__main__":
-    os.environ["PROVBE_TRANSACTION_TABLE_NAME"] = "provbe-Transaction"
-    e = {
-        "tokenId": "54"
-    }
-    lambda_handler(e, {})
+# if __name__ == "__main__":
+#     os.environ["PROVBE_TRANSACTION_TABLE_NAME"] = "provbe-Transaction"
+#     e = {
+#         "tokenId": "2"
+#     }
+#     lambda_handler(e, {})

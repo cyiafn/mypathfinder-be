@@ -1,0 +1,10 @@
+{
+    "request": {
+        "tokenId": "42",
+        "extra": "meaning"
+    },
+    "response": {
+        "statusCode": 400,
+        "message": "Validation failed."
+    }
+}

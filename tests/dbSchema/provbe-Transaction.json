@@ -1,0 +1,43 @@
+{
+    "Table": {
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "tokenId",
+                "AttributeType": "N"
+            },
+            {
+                "AttributeName": "txn_hash",
+                "AttributeType": "S"
+            }
+        ],
+        "TableName": "provbe-Transaction",
+        "KeySchema": [
+            {
+                "AttributeName": "tokenId",
+                "KeyType": "HASH"
+            },
+            {
+                "AttributeName": "txn_hash",
+                "KeyType": "RANGE"
+            }
+        ],
+        "TableStatus": "ACTIVE",
+        "CreationDateTime": "2022-03-10T00:05:26.880000+08:00",
+        "ProvisionedThroughput": {
+            "NumberOfDecreasesToday": 0,
+            "ReadCapacityUnits": 0,
+            "WriteCapacityUnits": 0
+        },
+        "TableSizeBytes": 0,
+        "ItemCount": 0,
+        "TableArn": "arn:aws:dynamodb:ap-southeast-1:407587355055:table/provbe-Transaction",
+        "TableId": "a386ad27-0fdf-4e0b-b7da-fca361ad5227",
+        "BillingModeSummary": {
+            "BillingMode": "PAY_PER_REQUEST",
+            "LastUpdateToPayPerRequestDateTime": "2022-03-10T00:05:26.880000+08:00"
+        },
+        "TableClassSummary": {
+            "TableClass": "STANDARD"
+        }
+    }
+}

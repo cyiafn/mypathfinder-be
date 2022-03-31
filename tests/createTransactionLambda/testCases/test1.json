@@ -1,0 +1,12 @@
+{
+    "request": {
+        "tokenId": "8",
+        "txn_hash": "xyz",
+        "sender": "0xd470d92c52d92c2392845e9fedb1e0f8cd5ae222",
+        "receiver": "0x728ad1b8a0e21d08f283a822cdcc030eb8f1a6d8"
+    },
+    "response": {
+        "statusCode": 200,
+        "body": "Updated successfully."
+    }
+}

@@ -48,11 +48,6 @@ class RequestResponseProcessor:
         '''
         Main orchestrating function
         '''
-        if len(self._unvalidatedRequest) == 1:
-            raise Exception(json.dumps({
-                "statusCode": 400,
-                "message": "Nothing to update!"
-            }))
         self.validateRequest()
         self.updateDb()
         return self.buildResponse()
@@ -66,24 +61,26 @@ class RequestResponseProcessor:
             "statusCode": 400,
             "message": "Validation failed."
         })
-        if not set(self._requiredAttributes).issubset(set(self._unvalidatedRequest.keys())) or len(self._requiredAttributes) > len(self._unvalidatedRequest.keys()):
+        # ensure unvalidated request contains all required attributes
+        if not set(self._requiredAttributes).issubset(set(self._unvalidatedRequest.keys())):
             log("[VALIDATION] Failed due to required Attributes not present.", "INFO")
             raise Exception(errorResponse)
         else:
+            # ensure unvalidated request does not have extra attributes outside of those specified in required & optional attributes
             if len(set(self._unvalidatedRequest.keys()).intersection(self._requiredAttributes + \
                 self._optionalAttributes)) == len(self._unvalidatedRequest.keys()):
                 for key, value in self._unvalidatedRequest.items():
-                    match = re.findall(self._regex[key], str(value))
+                    match = re.findall(self._regex[key], value)
+                    # ensure only one match for the regex
                     if len(match) == 1:
                         self._validatedRequest[key] = value
                     else:
-                        log("[VALIDATION] Failed due to required Attributes not present." + key, "INFO")
+                        log("[VALIDATION] Failed due to required Attributes not present.", "INFO")
                         raise Exception(errorResponse)
             else:
                 log("[VALIDATION] Failed due to required Attributes not present.", "INFO")
                 raise Exception(errorResponse)
         log("[VALIDATION] Success" + str(self._validatedRequest), "INFO")
-
 
     def updateDb(self):
         try:
@@ -109,7 +106,6 @@ class RequestResponseProcessor:
                     "message": "Error interacting with DB"
                 })
             )
-        
 
     def buildResponse(self):
         #code to run incase i need to filter out decimals
@@ -125,12 +121,12 @@ def lambda_handler(event, context):
     log("[RESPONSE] " + str(res), "INFO")
     return res
 
-if __name__ == "__main__":
-    os.environ["PROVBE_TRANSACTION_TABLE_NAME"] = "provbe-Transaction"
-    e = {
-        "tokenId": "1",
-        "txn_hash": "aab",
-        "sender": "0xf03ffd9622ea11f620f5a7b9ff4179ece25c8c51",
-        "receiver": "0xc888d592dbf5050e7f9dfcc721fa2a24958fd57f"
-    }
-    lambda_handler(e, {})
+# if __name__ == "__main__":
+#     os.environ["PROVBE_TRANSACTION_TABLE_NAME"] = "provbe-Transaction"
+#     e = {
+#         "tokenId": "2",
+#         "txn_hash": "def",
+#         "sender": "0x25f3cc20e429d183657c89535cbef07c3a5f33a3",
+#         "receiver": "0xbfa9ddc23732c910c5f1a304c1957f9b979e792f"
+#     }
+#     lambda_handler(e, {})
